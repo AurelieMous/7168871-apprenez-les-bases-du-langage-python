@@ -20,12 +20,18 @@ def main():
             nombre_supperieur += 1
     print(f"Nombre de nombres supérieurs à la moyenne : {nombre_supperieur}")
 
-    pair = 0
-    for nombre in liste_nombre:
-        if (int(nombre) %2) ==0:
-            pair += 1
+    pair=0
+    i = 0
+    while i < len(liste_nombre):
+        if int(liste_nombre[i])%2 ==0:
+            pair +=1
+        i += 1
     print(f"Nombre de nombres pairs : {pair}")
 
+    #for nombre in liste_nombre:
+        #if (int(nombre) %2) ==0:
+            #pair += 1
+    #print(f"Nombre de nombres pairs : {pair}")
    
     
         
