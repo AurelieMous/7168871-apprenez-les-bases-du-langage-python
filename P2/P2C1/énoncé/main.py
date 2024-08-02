@@ -28,7 +28,7 @@ def main():
 
         print(f"Le résultat de l'opération est: {resultat}")
 
-
+main()
 
 # Ne touchez pas le code ci-dessous
 if __name__ == "__main__":
